@@ -28,10 +28,11 @@ https://github.com/stefanwille/crystal-redis
 https://github.com/crystal-lang/crystal-sqlite3
 
 ##go
-
-export GOPATH=$HOME/gocode:$HOME/myGolang
+```
+export GOROOT=$HOME/go
+export GOPATH=$HOME/gocode
 export PATH=$PATH:$GOROOT/bin:${GOPATH//://bin:}/bin
-
+```
 https://github.com/gin-gonic/gin
 
 https://gobot.io/
