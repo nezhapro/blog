@@ -30,10 +30,9 @@ https://github.com/crystal-lang/crystal-sqlite3
 ##go
 ```
 export GOROOT=$HOME/go
-export GOPATH=$HOME/gocode
-export PATH=$PATH:$GOROOT/bin:${GOPATH//://bin:}/bin
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=$HOME/app/go
 ```
 https://github.com/gin-gonic/gin
 
 https://gobot.io/
-
