@@ -29,9 +29,13 @@ https://github.com/crystal-lang/crystal-sqlite3
 
 ##go
 ```
-export GOROOT=$HOME/go
-export PATH=$PATH:$GOROOT/bin
-export GOPATH=$HOME/app/go
+sudo vim ~/.profile
+
+在前面添加
+export GOROOT=/usr/lib/go
+export GOPATH=$HOME/gocode
+export  PATH=$PATH:$GOPATH/bin（原路径后用冒号连接新路径）
+（如果要立刻生效，可以source /etc/profile）
 ```
 https://github.com/gin-gonic/gin
 
